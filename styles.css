@@ -1,0 +1,118 @@
+
+/* Estilos generales */
+
+/* En esta sección se establecen los estilos generales para el cuerpo del documento.
+ Se utiliza la fuente Arial, sans-serif como tipo de letra predeterminado. Además, 
+ se eliminan los márgenes y el relleno predeterminados. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  /* Aquí se establecen los estilos para el encabezado del blog. 
+  Se le asigna un color de fondo oscuro (#333) y un color de texto claro (#fff). 
+  También se añade un relleno de 20 píxeles en todas las direcciones */
+  header {
+    background-color: skyblue;
+    color: #000000;
+    padding: 20px;
+  }
+  
+
+  /* Este estilo se aplica al título principal <h1> dentro del encabezado. 
+  Se elimina el margen superior y inferior para ajustar el espacio. */
+  h1 {
+    margin: 0;
+  }
+  
+
+  /* Estos estilos se aplican a la lista no ordenada <ul> dentro de la barra de navegación.
+   Se elimina el estilo de viñetas, se quita el margen y el relleno predeterminados, 
+   y se asigna un color de fondo (#f1f1f1) para distinguir visualmente la barra de navegación. */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #92aa257e;
+  }
+  
+
+  /* Aquí se establece que los elementos de la lista <li> 
+  dentro de la barra de navegación se muestren en línea, uno al lado del otro. */
+  nav li {
+    display: inline;
+  }
+  
+
+  /* Estos estilos se aplican a los enlaces <a> dentro de la barra de navegación. 
+  Se les asigna un estilo de bloque, lo que significa que se mostrarán uno debajo del otro. 
+  También se agrega un relleno de 10 píxeles en las direcciones superior e inferior, y 20 píxeles en 
+  las direcciones izquierda y derecha. Se elimina la decoración de texto subrayado y se asigna un color de
+  texto oscuro (#333). */
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+  /* Este estilo se aplica cuando se pasa el cursor por encima de los enlaces de la barra de navegación.
+   Se les asigna un color de fondo más claro (#ddd) para indicar interactividad. */
+  nav a:hover {
+    background-color: #975f8e;
+  }
+  
+
+  /* Estos estilos se aplican a la sección principal del contenido del blog. 
+  Se agrega un margen de 20 píxeles en todas las direcciones para separar visualmente 
+  el contenido de los bordes del contenedor. */
+  section {
+    margin: 20px;
+  }
+  
+
+  /* Este estilo se aplica a los elementos <article> del blog. 
+  Se agrega un margen inferior de 30 píxeles para crear espacio entre cada artículo. */
+  article {
+    margin-bottom: 30px;
+  }
+  
+
+  /* Estos estilos se aplican a los títulos <h2> de cada artículo. 
+  Se elimina el margen superior e inferior para ajustar el espacio. */
+  article h2 {
+    margin: 0;
+  }
+  
+
+  /* Estos estilos se aplican al área lateral <aside> del blog. 
+  Se le asigna un color de fondo (#f1f1f1) y un relleno de 20 píxeles en todas
+  las direcciones para destacarlo visualmente. */
+  aside {
+    background-color: #45b0d1;
+    padding: 20px;
+  }
+
+
+  /* Estos estilos se aplican al pie de página del blog. 
+  Se le asigna un color de fondo oscuro (#333) y un color de texto claro (#fff). 
+  También se agrega un relleno de 10 píxeles en todas las direcciones y se alinea el texto al centro. */ 
+  footer {
+    background-color: #da1111c9;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  /* Estos estilos se aplican a las imágenes dentro de la sección de contenido. 
+  Se establece que la anchura máxima de las imágenes sea del 100% del contenedor para que
+   se ajusten automáticamente al tamaño adecuado. La altura se ajustará proporcionalmente automáticamente.*/
+  #contenido img {
+    max-width: 100%;
+    height: auto;
+  }
+  

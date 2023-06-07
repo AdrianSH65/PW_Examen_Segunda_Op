@@ -1,0 +1,73 @@
+<!-- En esta sección del código, se define el documento HTML básico. Se establece 
+  la codificación de caracteres como UTF-8 y se agrega el título "Blog de Astronomía". 
+  También se enlaza la hoja de estilos CSS llamada "styles.css". -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Astronomía y un poco m&aacute;s</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <!-- En esta sección, se crea el encabezado del blog que contiene el título principal 
+    "Blog de Astronomía". Luego, se agrega una barra de navegación con una lista no ordenada 
+    <ul> que contiene enlaces <a> a las diferentes secciones del blog, como "Inicio", "Artículos", 
+      "Galería" y "Enlaces". -->
+  <header>
+    <h1>Blog personal, ASH</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="https://blogthinkbig.com/tag/astronomia">Artículos de astronom&iacute;a</a></li>
+      <li><a href="https://pixabay.com/es/images/search/astronomia/">Galería de cuerpos astronomicos</a></li>
+      <li><a href="https://www.universidadviu.com/int/actualidad/nuestros-expertos/significado-de-astronomia-definicion-del-termino#:~:text=La%20astronom%C3%ADa%20estudia%20los%20cuerpos,moldeando%20las%20Leyes%20del%20Cosmos,">Datos extras</a></li>
+      <li><a href="ConocimientosAlternos.html">Conocimientos alternos</a></li>
+    </ul>
+  </nav>
+
+  <!-- En esta sección, se crea la sección principal del contenido del blog.
+     Se utilizan elementos <article> para cada artículo del blog. Cada artículo contiene un título 
+      <h2>, párrafos <p> de contenido y una imagen <img> relacionada.-->
+  <section id="contenido">
+    <article>
+      <h2>¿Qué es la astronomia?</h2>
+      <p>La astronomía estudia los cuerpos celestes, su comportamiento, características, 
+        evolución, leyes que los rigen y otros datos, tanto en conjunto como por separado y, 
+        con la información que recogen, van definiendo y moldeando las Leyes del Cosmos.</p>
+      <p>Además, estos cuerpos celestes pueden organizarse en formaciones mayores: sistemas planetarios, 
+        constelaciones, galaxias, etc.</p>
+      <img src="imagenes/imagen1.jpg" alt="Imagen 1" style="margin-left: 220px;">
+      <p style="text-align: center;">Imagen de cuerpos celestes.</p>
+      <p></p>
+    </article>
+
+    <article>
+      <h2>¿Se puede observar el esapcio, los planetas, las estrellas etc?</h2>
+      <p>Se denomina telescopio ​ al instrumento óptico que permite observar objetos lejanos 
+        con mucho más detalle que a simple vista al captar radiación electromagnética, tal como la luz. 
+        Es un utensilio fundamental en astronomía, y cada desarrollo o perfeccionamiento de este instrumento
+         ha permitido avances en nuestra comprensión del Universo.</p>
+      <img src="imagenes/imagen2.jpg" alt="Imagen 2" style="margin-left: 320px;">
+      <p style="text-align: center;">Imagen de un telescopio, en el cual se puede contemplar el espacio.</p>
+    </article>
+  </section>
+
+
+  <!-- En esta sección final, se crea una sección de "Enlaces de interés" utilizando un elemento <aside>. 
+    Contiene un título <h2> y una lista <ul> de enlaces <a> relacionados. -->
+  <aside>
+    <h2>Datos generales.</h2>
+    <ul>
+      <li><a href="https://www.facebook.com/adrian.segundohipolito">Creador del blog.</a></li> <!-- Se reffiere al autor-->
+      <li><a href="https://www.itsx.edu.mx/">Pagina principal "ITSX".</a></li> <!-- Pagina principal escolar-->
+    </ul>
+  </aside>
+
+  <!-- muestra el año actual y una declaración de derechos de autor. -->
+  <footer>
+    <p>© 2023 Blog de Astronomía. Adrian Segundo Hipolito.</p>
+  </footer>
+</body>
+</html>
